@@ -5,6 +5,8 @@ What I'm doing is,
 I'm sending a message to queue in the form of "asrithvejandla@gmail.com;Subject of the mail;Body of the mail."
 While receiving this message from queue I'm spliting the message with ";" so that now I send mail to the asrithvejandla@gmail.com
 
+#### _If you didn't read the requirements of this application yet, read now : https://asrith4444.github.io/SQSDemoApplication_
+
 ### Understand the Application
 Actually this type of application can be done on two different desktops, but I provided the code in two packages one is asrith4444.sender and another one is asrith4444.receiver
 In this application we need to access the AWS SQS Services. So, that we need to provide the AWS account credentials to perfom any actions regarding to the AmazonSQS.
