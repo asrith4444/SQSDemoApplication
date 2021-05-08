@@ -1,37 +1,37 @@
-## Welcome to GitHub Pages
+## Welcome to SQSDemo Application
 
-You can use the [editor on GitHub](https://github.com/asrith4444/SQSDemoApplication/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+By using this Java Application, One can create a queue, send a message to queue, receive a message from queue, delete a message in the queue and sending mail.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Requirements
+- Eclipse IDE for Java Developers
+- Amazon AWS Tool kit
+- Java Mail dependency
 
-### Markdown
+### 1.Eclipse IDE for Java Developers
+Download it from [here](https://www.eclipse.org/downloads/packages/)
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### 2.Amazon AWS Tool Kit
+**Steps to Install Amazon AWS Tool Kit in Eclipse IDE**
+- Open Eclipse IDE
+- Go to HELP Section
+- Click on Marketplace
+- Search for Amazon AWS Tool Kit
+- Install it
+- Now you can see an Orange cube in the top-middle of the IDE
+- Click on it, choose preferences
+- Save your AWS Profile here.
+- Apply and close
 
+### 3.Java Mail Dependency
 ```markdown
-Syntax highlighted code block
+Paste the below code in the POM.XML file
 
-# Header 1
-## Header 2
-### Header 3
+` <dependency>
+    <groupId>com.sun.mail</groupId>
+    <artifactId>javax.mail</artifactId>
+    <version>1.6.2</version>
+  </dependency>`
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/asrith4444/SQSDemoApplication/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+#### By completing the above requirements you can start the project. Do not forget to read [**README.md**](https://github.com/asrith4444/SQSDemoApplication/)
