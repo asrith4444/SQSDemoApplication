@@ -40,7 +40,7 @@ In this package it contains files like AwsClientInitalizer.java, MessageReceiver
 - MailSender.java<br/><br/>
 
 #### Note:
-- If you miss reading the requirements you can read [here](htpps://asrith4444.github.io/SQSDemoApplication).<br/>
+- If you miss reading the requirements you can read here htpps://asrith4444.github.io/SQSDemoApplication.<br/>
 - Use Gmail to send the emails. Because I'm used the google as host.<br/>
 - Do not forget to Turn On the Less Secure Apps Access. You can change it here https://myaccount.google.com/lesssecureapps<br/>
 - You will understand the code clearly with the help of comments. Still having any problem rise an issue.
