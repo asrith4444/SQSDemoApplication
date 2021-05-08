@@ -15,6 +15,7 @@ By using this Java Application, One can create a queue, send a message to queue,
 - Amazon AWS Tool kit
 - Java Mail dependency
 - Turn On the less secure access in gmail
+- Change the mailID and password in the details.txt
 
 ### 1.Eclipse IDE for Java Developers
 Download it from [here](https://www.eclipse.org/downloads/packages/)
@@ -44,5 +45,8 @@ Paste the below code in the POM.XML file
 ```
 ### 4.Turn On the Less secure app acess
 You can click on this [link](https://myaccount.google.com/lesssecureapps) and turn it on.
+
+### 5.Change the mailID and password in the details.txt
+In **package asrith4444.receiver** there is a file named as details.txt which contains Email ID and its password. Replace those values with your details. Remeber, email ID is in 1st line and password in 2nd line.
 
 #### By completing the above requirements you can start the project. Do not forget to read [**README.md**](https://github.com/asrith4444/SQSDemoApplication/)
