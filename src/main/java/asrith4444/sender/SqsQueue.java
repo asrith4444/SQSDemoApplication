@@ -1,4 +1,4 @@
-package asrith4444.github.io.sender;
+package asrith4444.sender;
 
 import com.amazonaws.services.sqs.*;
 import com.amazonaws.services.sqs.model.*;

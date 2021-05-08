@@ -1,4 +1,4 @@
-package asrith4444.github.io.sender;
+package asrith4444.sender;
 import com.amazonaws.auth.AWSCredentials;
 import com.amazonaws.auth.profile.ProfileCredentialsProvider;
 import com.amazonaws.regions.Region;
